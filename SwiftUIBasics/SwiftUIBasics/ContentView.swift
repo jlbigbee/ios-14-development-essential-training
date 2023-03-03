@@ -9,11 +9,16 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-      Text("Hello, world!")
+        VStack {
+            Text("Text 1")
+            HStack {
+                Text("Text 2")
+                Text("Text 3")
+            }
         }
-    
+        
     }
-
+}
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
