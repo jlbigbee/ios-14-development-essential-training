@@ -12,6 +12,7 @@
 		D046460329B1D0AE0006492F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D046460229B1D0AE0006492F /* Assets.xcassets */; };
 		D046460629B1D0AF0006492F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D046460529B1D0AF0006492F /* Preview Assets.xcassets */; };
 		D0E6286429B2CA3C00E0856E /* ColorSwatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E6286329B2CA3C00E0856E /* ColorSwatch.swift */; };
+		D0E6286629B2D0C400E0856E /* ColorSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E6286529B2D0C400E0856E /* ColorSliderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		D046460229B1D0AE0006492F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D046460529B1D0AF0006492F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D0E6286329B2CA3C00E0856E /* ColorSwatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSwatch.swift; sourceTree = "<group>"; };
+		D0E6286529B2D0C400E0856E /* ColorSliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSliderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			children = (
 				D04645FE29B1D0AC0006492F /* SwiftUIBasicsApp.swift */,
 				D046460029B1D0AC0006492F /* ContentView.swift */,
+				D0E6286529B2D0C400E0856E /* ColorSliderView.swift */,
 				D0E6286329B2CA3C00E0856E /* ColorSwatch.swift */,
 				D046460229B1D0AE0006492F /* Assets.xcassets */,
 				D046460429B1D0AF0006492F /* Preview Content */,
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D046460129B1D0AC0006492F /* ContentView.swift in Sources */,
+				D0E6286629B2D0C400E0856E /* ColorSliderView.swift in Sources */,
 				D04645FF29B1D0AC0006492F /* SwiftUIBasicsApp.swift in Sources */,
 				D0E6286429B2CA3C00E0856E /* ColorSwatch.swift in Sources */,
 			);

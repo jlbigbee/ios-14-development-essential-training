@@ -22,13 +22,8 @@ struct ContentView: View {
             
                 Image(systemName: "gamecontroller.fill").foregroundColor(Color(red: red, green: green, blue: blue, opacity:1)).padding().font(/*@START_MENU_TOKEN@*/.largeTitle/*@END_MENU_TOKEN@*/)
             
-            HStack {
-                ColorSwatch(color: .red)
-                Slider(value: $red, in: 0...1, step: 0.01)
-                    .padding()
+            ColorSliderView(colorValue: $red)
             
-            }
-            .padding()
         }
         
     }
