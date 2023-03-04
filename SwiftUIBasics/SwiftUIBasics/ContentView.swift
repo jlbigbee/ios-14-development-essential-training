@@ -19,14 +19,15 @@ struct ContentView: View {
             Text("Text 1")
                 .padding()
                 .font(.largeTitle)
-            HStack{
-                Image(systemName: "gamecontroller.fill").foregroundColor(Color(red: red, green: green, blue: blue, opacity:1)).padding(.leading).font(/*@START_MENU_TOKEN@*/.largeTitle/*@END_MENU_TOKEN@*/)
-                Slider(value: $red, in: 0...1, step: 0.01)
-                    .padding(.trailing)
-            }
+            
+                Image(systemName: "gamecontroller.fill").foregroundColor(Color(red: red, green: green, blue: blue, opacity:1)).padding().font(/*@START_MENU_TOKEN@*/.largeTitle/*@END_MENU_TOKEN@*/)
+            
             HStack {
-                Text("Text 2")
-                Text("Text 3")
+                Circle().frame(width: 20, height: 20, alignment: .center).foregroundColor(.red)
+                
+                Slider(value: $red, in: 0...1, step: 0.01)
+                    .padding()
+            
             }
             .padding()
         }
