@@ -17,7 +17,7 @@ struct DetailView: View {
                 popoverIsShowing = true
             }
             .padding()
-            .sheet(isPresented: $popoverIsShowing, content: {Text("Hi!")})
+            .sheet(isPresented: $popoverIsShowing, content: {Text(data.popoverText)})
         }
     }
 }
