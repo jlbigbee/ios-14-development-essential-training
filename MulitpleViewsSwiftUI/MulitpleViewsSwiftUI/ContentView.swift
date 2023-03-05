@@ -13,6 +13,7 @@ struct ContentView: View {
             List(DataModel.data, id: \.self) { object in
                 Text(object.title)
             }
+            .navigationTitle("Items")
         }
     }
 }
